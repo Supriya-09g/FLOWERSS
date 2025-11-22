@@ -3,26 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Payment - BLOOM</title>
-<link rel="stylesheet" href="style.css">
+<title>Payment - Bloom</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#ffe2f1;}
+nav{display:flex;justify-content:center;align-items:center;padding:20px;font-size:30px;color:#b30052;font-weight:700;}
+.payment-form{text-align:center;padding:50px;}
+.payment-form input{display:block;width:320px;margin:12px auto;padding:12px;border-radius:10px;border:none;}
+.btn{background:#b30052;padding:12px 25px;color:#fff;border-radius:30px;text-decoration:none;font-size:18px;border:none;}
+</style>
+
 </head>
 <body>
 
-<header>
-    <nav>
-        <h1>BLOOM</h1>
-    </nav>
-</header>
+<header><nav>BLOOM PAYMENT</nav></header>
 
 <section class="payment-form">
-    <h2>Enter Payment Details</h2>
-    <form action="thankyou.html">
-        <input type="text" placeholder="Full Name" required>
-        <input type="text" placeholder="Shipping Address" required>
-        <input type="number" placeholder="Phone Number" required>
-        <input type="email" placeholder="Email Address" required>
-        <button type="submit" class="btn">Confirm Order</button>
-    </form>
+<h2>Enter Payment Details</h2>
+
+<form action="thankyou.html">
+<input type="text" placeholder="Full Name" required>
+<input type="text" placeholder="Address" required>
+<input type="number" placeholder="Phone Number" required>
+<input type="email" placeholder="Email" required>
+<button type="submit" class="btn">Confirm Order</button>
+</form>
 </section>
 
 </body>
