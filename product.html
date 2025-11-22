@@ -4,41 +4,60 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Products - Bloom</title>
-<link rel="stylesheet" href="style.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#ffe2f1;}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 70px;}
+nav h1{color:#b30052;font-size:32px;font-weight:700;}
+nav ul{display:flex;gap:30px;}
+nav ul li{list-style:none;}
+nav ul li a{text-decoration:none;color:#000;font-size:18px;}
+.products{text-align:center;padding:40px;}
+.product-container{display:flex;justify-content:center;gap:30px;margin-top:25px;}
+.product-card{width:250px;background:#fff;border-radius:20px;padding:20px;}
+.product-card img{width:100%;border-radius:15px;}
+.btn{background:#b30052;padding:10px 20px;color:white;border-radius:25px;text-decoration:none;display:inline-block;margin-top:10px;}
+footer{text-align:center;padding:10px;margin-top:40px;font-size:16px;}
+</style>
+
 </head>
 
 <body>
+
 <header>
-    <nav>
-        <h1>BLOOM</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-        </ul>
-    </nav>
+<nav>
+<h1>BLOOM</h1>
+<ul>
+<li><a href="index.html">Home</a></li>
+</ul>
+</nav>
 </header>
 
 <section class="products">
-    <h2>Our Flower Collection</h2>
+<h2>Our Flower Collection</h2>
 
-    <div class="product-container">
-        <div class="product-card">
-            <img src="images/f.jpeg" alt="Rose Bouquet">
-            <h3>Rose Bouquet</h3>
-            <p>Price: ₹499</p>
-            <a href="payment.html" class="btn">Buy Now</a>
-        </div>
+<div class="product-container">
 
-        <div class="product-card">
-            <img src="images/f.jpeg" alt="Pink Roses">
-            <h3>Pink Roses</h3>
-            <p>Price: ₹599</p>
-            <a href="payment.html" class="btn">Buy Now</a>
-        </div>
-    </div>
+<div class="product-card">
+<img src="images/f.jpeg" alt="Rose Bouquet">
+<h3>Rose Bouquet</h3>
+<p>Price: ₹499</p>
+<a href="payment.html" class="btn">Buy Now</a>
+</div>
+
+<div class="product-card">
+<img src="images/f.jpeg" alt="Pink Roses">
+<h3>Pink Roses</h3>
+<p>Price: ₹599</p>
+<a href="payment.html" class="btn">Buy Now</a>
+</div>
+
+</div>
 </section>
 
 <footer>
-    <p>© 2025 Bloom Flower Shop | All Rights Reserved</p>
+<p>© 2025 Bloom Flower Shop | All Rights Reserved</p>
 </footer>
 
 </body>
